@@ -1,4 +1,4 @@
-# sql-injection
+# NPS sql-injection
 
 This express module detects sql injection attacks and stops them by sending 403 as response.
 The module checks the query string, route params, and body for any sql injection related content.
