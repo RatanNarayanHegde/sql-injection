@@ -1,12 +1,12 @@
 {
-    "name": "sql-injection",
-    "description": "This express module detects sql injection attacks and stops them with 403 http status code.",
-    "version": "0.0.6",
-    "author": "Ghafran Abbas <ghafranabbas@gmail.com>",
-    "homepage": "https://github.com/ghafran/sql-injection",
+    "name": "nps-sql-injection",
+    "description": "This module checks for sql injection using regex and rejects requests with 403 response if sql is found",
+    "version": "1.0.0",
+    "author": "Ratan Narayan Hegde",
+    "homepage": "https://github.com/RatanNarayanHegde/sql-injection",
     "repository": {
         "type": "git",
-        "url": "https://github.com/ghafran/sql-injection"
+        "url": "https://github.com/RatanNarayanHegde/sql-injection"
     },
     "main": "./lib/index",
     "scripts": {
@@ -37,7 +37,7 @@
         "module"
     ],
     "bugs": {
-        "url": "https://github.com/ghafran/sql-injection/issues"
+        "url": "https://github.com/RatanNarayanHegde/sql-injection/issues"
     },
     "directories": {
         "test": "test"
